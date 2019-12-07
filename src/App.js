@@ -13,9 +13,20 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload. ok i did.
         </p>
+        <p>
+          Edit <code>src/App.js</code> and save to reload Part 2.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </div>
     );
   }
 }
 
-export default App;
+export default withAuthenticator(App);
